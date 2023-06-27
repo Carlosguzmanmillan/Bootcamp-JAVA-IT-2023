@@ -1,0 +1,7 @@
+Para el ejercicio 1, tomando en cuenta que estamos trabajando en una rama de desarollo, para poder subir al master y hacer cambios en la misma,
+primero se deben guardar los cambios en el commit actual con el comando "git stash", luego pasamos al master con un "git checkout master", realizamos los cambios necesarios
+y una vez finalizado, bajamos a la rama "custom-navbar", y continuamos nuestro trabajo con un "git stash apply".
+
+Para el ejercicio 2, siguiendo la logica de que la rama master no se puede tocar por el equipo de devs ya que es la de produccion, 
+y partiendo de que la nueva interfaz ya está aprobada por el equipo de QA lista para subir a produccion,
+lo que se haria es un pull-request con los cambios hacia master, a la espera de que se apruebe el merge.
